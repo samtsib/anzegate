@@ -1,0 +1,44 @@
+{
+  "name": "craftcms/commerce-migs",
+  "description": "MIGS payment gateways plugin for Craft Commerce 2",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "keywords": [
+    "migs",
+    "anz",
+    "commerce",
+    "craftcms",
+    "omnipay",
+    "yii2"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "samtsib",
+      "homepage": "https://example.com"
+    }
+  ],
+  "support": {
+    "email": "support@craftcms.com",
+    "issues": "https://github.com/samtsib/anzegate/issues?state=open",
+    "source": "https://github.com/samtsib/anzegate",
+    "docs": "https://github.com/samtsib/anzegate",
+    "rss": "https://github.com/samtsib/anzegate/commits/master.atom"
+  },
+  "require": {
+    "craftcms/commerce": "^2.0.0-alpha.6",
+    "craftcms/commerce-omnipay": "^1.0.0",
+    "omnipay/migs": "^2.2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "craft\\commerce\\migs\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "MIGS for Craft Commerce",
+    "handle": "commerce-migs",
+    "changelogUrl": "https://raw.githubusercontent.com/samtsib/anzegate/master/CHANGELOG.md",
+    "downloadUrl": "https://github.com/samtsib/anzegate/archive/master.zip"
+  }
+}
